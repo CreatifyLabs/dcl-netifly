@@ -1,0 +1,9 @@
+[build]
+  functions = "functions"
+
+[dev]
+  publish = "dist"
+
+[[edge_functions]]
+function = "log"
+path = "/test"

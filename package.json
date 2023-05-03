@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "@dcl/npc-scene-utils": "^1.5.1",
+    "@netlify/functions": "^1.4.0",
     "decentraland-builder-scripts": "latest"
   },
   "bundleDependencies": [
