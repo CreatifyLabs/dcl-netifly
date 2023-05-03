@@ -1,6 +1,5 @@
-exports.handler = async (event, context) => {
-  return {
-    statusCode: 200,
-    body: "Hello from your serverless function!",
-  };
-};
+[build]
+  functions = "functions"
+
+[dev]
+  publish = "dist"
